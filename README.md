@@ -33,7 +33,7 @@ Commands for geo data and processing
 
 #### SHP Import
 
-	: shp2pgsql -W LATIN1 'path/to/import/shape.shp' SCHEMA.TABLE|psql -h HOST -d DATABASE -U USER
+	: shp2pgsql 'path/to/import/shape.shp' SCHEMA.TABLE|psql -h HOST -d DATABASE -U USER
 	
 #### SHP Export
 
